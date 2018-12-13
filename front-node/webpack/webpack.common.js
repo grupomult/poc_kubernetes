@@ -2,8 +2,11 @@ const webpack = require('webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const rxPaths = require('rxjs/_esm5/path-mapping');
+// const params = require('yargs');
 
 const utils = require('./utils.js');
+
+// console.log('process.argv', process.argv);
 
 module.exports = (options) => ({
     resolve: {
@@ -62,7 +65,8 @@ module.exports = (options) => ({
                 // If this URL is left empty (""), then it will be relative to the current context.
                 // If you use an API server, in `prod` mode, you will need to enable CORS
                 // (see the `jhipster.cors` common JHipster property in the `application-*.yml` configurations)
-                SERVER_API_URL: `'http://localhost:8080/'`
+                SERVER_API_URL: `'${process.env.serverUrlApi}'`
+                // SERVER_API_URL: `'http://localhost:8080/'`
             }
         }),
         new CopyWebpackPlugin([
