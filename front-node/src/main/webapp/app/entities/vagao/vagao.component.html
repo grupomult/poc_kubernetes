@@ -1,6 +1,6 @@
 <div>
     <h2 id="page-heading">
-        <span>Vagaos</span>
+        <span>Vagões</span>
         <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-vagao" [routerLink]="['/vagao/new']">
             <fa-icon [icon]="'plus'"></fa-icon>
             <span >
@@ -34,7 +34,7 @@
                 <td>{{vagao.largura}}</td>
                 <td>
                     <div *ngIf="vagao.tipoVagao">
-                        <a [routerLink]="['../tipo-vagao', vagao.tipoVagao?.id, 'view' ]" >{{vagao.tipoVagao?.id}}</a>
+                        <a [routerLink]="['../tipo-vagao', vagao.tipoVagao?.id, 'view' ]" >{{vagao.tipoVagao?.codigo}}</a>
                     </div>
                 </td>
                 <td class="text-right">

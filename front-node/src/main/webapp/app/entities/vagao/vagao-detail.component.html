@@ -28,7 +28,7 @@
                 <dt><span>Tipo Vagao</span></dt>
                 <dd>
                     <div *ngIf="vagao.tipoVagao">
-                        <a [routerLink]="['/tipo-vagao', vagao.tipoVagao?.id, 'view']">{{vagao.tipoVagao?.id}}</a>
+                        <a [routerLink]="['/tipo-vagao', vagao.tipoVagao?.id, 'view']">{{vagao.tipoVagao?.codigo}}</a>
                     </div>
                 </dd>
             </dl>
