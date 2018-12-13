@@ -1,5 +1,6 @@
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/service/dto/UserDTO.java
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/security/UserNotActivatedException.java
+/Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/web/rest/VagaoResource.java
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/service/package-info.java
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/service/AuditEventService.java
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/repository/package-info.java
@@ -14,6 +15,7 @@
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/config/audit/AuditEventConverter.java
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/config/DefaultProfileUtil.java
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/security/package-info.java
+/Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/domain/Vagao.java
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/web/rest/errors/package-info.java
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/web/rest/vm/LoggerVM.java
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/security/jwt/JWTFilter.java
@@ -23,6 +25,7 @@
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/service/dto/PasswordChangeDTO.java
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/config/MetricsConfiguration.java
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/config/DatabaseConfiguration.java
+/Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/repository/VagaoRepository.java
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/config/WebConfigurer.java
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/web/rest/vm/LoginVM.java
 /Users/lancer/java/workspace-poc-rumo/back/src/main/java/br/com/rumo/back/web/rest/vm/package-info.java
